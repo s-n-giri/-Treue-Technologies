@@ -1,0 +1,361 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, #4abdac, #fc4a1a);
+    box-sizing: border-box;
+    color: #fff;
+    font-family: cursive;
+}
+
+
+/* Navgation Bar Section Design  */
+
+.navbar-container{
+    height: 12vh;
+    position: fixed;
+    width: 100vw;
+    background: linear-gradient(90deg, #4abdac, #fc4a1a);
+}
+
+.logo{
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    color: tomato;
+}
+
+.fa-user-graduate{
+    padding: 5px;
+}
+
+
+.logo:hover{
+    color: red;
+}
+
+.left{
+    display: inline-block;
+    margin-left: 30px;
+    padding: 3px;
+}
+
+.mid{
+    display: inline-block;
+    margin-left: 25%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.right{
+    display: inline-block;
+}
+
+.call-button{
+    font-family: cursive;
+    background-color: #0a7aa3;
+    border: none;
+    border-radius: 3px;
+    height: 40px;
+    width: 90px;
+    color: white;
+    margin: 0 0 15px 250px;
+    cursor: pointer;
+}
+
+.fa-phone{
+    padding-right: 6px;
+}
+
+.call-button:hover{
+    background-color: #015979;
+    color: orange;
+}
+
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    display: inline-block;
+}
+
+.navbar li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    padding: 15px;
+}
+
+
+.navbar .active, .navbar a:hover{
+    color: #0ee36d;
+    text-decoration: overline;
+}
+
+
+/* Home Page Section Design  */
+
+.home{
+    padding: 80px;
+    font-family: cursive;
+}
+
+.home-img{
+    float: left;
+    width: 400px;
+    height: 400px;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+
+.moto-heading{
+    margin-top: 200px;
+
+}
+
+.moto-details{
+    display: inline-block;
+    margin: auto;
+    padding: 2px;
+}
+
+.l1{
+    margin-left: 75px;
+}
+
+.l2{
+    margin-left: 125px;
+}
+
+.l3{
+    margin-left: 115px;
+}
+
+/* About Section Design  */
+
+.about{
+    padding: 80px;
+    font-family: cursive;
+    
+}
+
+.about-img{
+    float: right;
+    width: 500px;
+    height: 400px;
+    margin: 50px 80px 0 0;
+}
+
+.about-heading{
+    width: fit-content;
+    margin: 120px 0 0 200px;
+}
+
+.about-detail{
+    width: 45%;
+    display: inline-block;
+    margin: 20px 0 0 50px;
+    text-align: justify;
+    line-height: 1.5;
+} 
+
+
+
+/* Course Page */
+
+.course{
+    padding: 80px;
+    height: 100vh;
+}
+
+.course h1{
+    text-align: center;
+    padding: 10px;
+    margin: 40px 25px 25px 25px;
+}
+
+.course h1 span{
+    color: yellowgreen;
+}
+
+.row{
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 25px;
+}
+
+.column{
+    background-color: #eaeaea;
+    padding: 5% 10%;
+    border-radius: 10px;
+    color: #111;
+    text-align: center;
+}
+
+
+.column p{
+    font-size: 22px;
+}
+
+.column h3{
+    font-size: 25px;
+    margin: 0;
+    text-align: right;
+    font-weight: 700;
+    color: tomato;
+}
+
+.column h3 span{
+    font-size: 15px;
+    margin-right: -10px;
+}
+
+.column ul{
+    text-align: left;
+    margin: 10px 0;
+    list-style-type: none;
+}
+
+.column ul li{
+    margin: 15px 0;
+}
+
+.column ul li::before{
+    content: '\2713';
+    color: tomato;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.column button{
+    width: 100%;
+    padding: 14px 0;
+    background-color: transparent;
+    color: #111;
+    cursor: pointer;
+    margin-top: 25px;
+    font-size: 15px;
+    border: 1px solid tomato;
+    border-radius: 5px;
+    transition: background 1s;
+}
+
+.column button:hover{
+    background-color: tomato;
+    color: #fff;
+}
+
+
+
+/* Contact Section Design  */
+
+
+.contact{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+}
+
+.contact-left{
+    margin: 50px;
+    padding: 50px;
+}
+
+.contact-left h5{
+    border: 1px solid;
+}
+
+.contact-heading{
+    font-size: 50px;
+}
+
+.message{
+    width: 60%;
+    margin: 30px 0 0 80px;
+}
+
+input{
+    display: block;
+    margin: 30px 0 0 80px;
+    width: 60%;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    color: black;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+::placeholder{
+    color: black;
+}
+
+input:focus{
+    outline: none;
+}
+
+
+.btn{
+    font-family: cursive;
+    font-weight: bold;
+    display: block;
+    margin: 30px 0 0 80px;
+    width: 60%;
+    height: 40px;
+    border: none;
+    background-color: #0ee36d;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.fa{
+    margin-right: 5px;
+    background-color: #0ee36d;
+}
+
+.contact-right{
+    margin: 50px;
+    padding: 50px;
+
+}
+
+
+.contact-right p{
+    font-weight: normal;    
+    margin: 0;
+}
+
+
+.contact-right h3{
+    color: #0ee36d;
+    margin-bottom: 10px;
+}
+
+.support-heading, .addressh-heading{
+    margin-top: 20px;
+}
+
+.social-icon{
+    margin-top: 30px;
+}
+
+.social{
+    padding-right: 50px;
+    cursor: pointer;
+}
+
+.fa-linkedin{
+    color:  #0A66C2;
+}
+
+.fa-twitter{
+    color:#00acee;
+}
+
+.fa-facebook-f{
+    color: #4267B2;
+}
+
