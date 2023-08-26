@@ -1,0 +1,91 @@
+body{
+    height: 100vh;
+    background: linear-gradient(#2dbd6e, #a6f77b);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main{
+    width: 20%;
+    height: 440px;
+    text-align: center;
+    background-color: rgb(55, 58, 59);
+    margin-left: 35%;
+    margin-top: 40px;
+    color: wheat;
+    border-radius: 10px;
+    padding-top: 5px;
+}
+
+.result{
+    height: 100px;
+    width: 90%;
+    margin-bottom: 10px;
+    border: #FFFDD0;
+    border-radius: 5px;
+    background-color: #FFFDD0;
+    cursor: text;
+    text-align: right;
+    font-size: 45px;
+}
+
+.functions{
+    height: 260px;
+    padding-top: 10px;
+    background-color: rgb(83, 90, 92);
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.btn{
+    padding: 5px;
+    border: #FFFDD0;
+    border-radius: 10%;
+    margin: 3px;
+    width: 60px;
+    height: 40px;
+    background-color: #FFFDD0;
+    color: black;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: #ffabf4;
+    color: #fff;
+}
+
+
+.equal{
+    width: 130px;
+    border-radius: 5px;
+}
+
+.major{
+    color: #fff;
+    background-color: tomato;
+}
+
+.major:hover{
+    background-color: red;
+    color: #fff;
+}
+
+.del:hover, .fa-arrow-left:hover{
+    background-color: tomato;
+    color: #fff;
+}
+
+.operator{
+    color: tomato;
+    font-weight: 800;
+}
+
+.operator:hover{
+    color: #fff;
+    background-color: #a6f77b;
+}
